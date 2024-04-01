@@ -9,10 +9,10 @@ require('dotenv').config();
 const port = 3000;
 
 const pool = mysql.createPool({
-  host: 'localhost',
-  user: 'root',
-  password: 'Zp07au?2',
-  database: 'car'
+  host: 'host',
+  user: 'user',
+  password: 'password',
+  database: 'database'
 });
 
 app.use(async function(req, res, next) {
